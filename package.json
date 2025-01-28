@@ -1,0 +1,15 @@
+{
+  "name": "colleague-chat",
+  "version": "1.0.0",
+  "description": "Eine einfache Chat-Anwendung für Kollegen",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.21.2",
+    "socket.io": "^4.3.2",
+    "sqlite3": "^5.0.2"
+  }
+}
